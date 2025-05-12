@@ -1,11 +1,12 @@
-package Universitarios_servidor.modelo;
+package Universitarios_cliente.cliente;
 
 import lombok.Getter;
 import lombok.Setter;
 
-
 public class Estudiante {
-    @Getter @Setter private int id;
+    @Getter
+    @Setter
+    private int id;
     @Getter @Setter private String nombre;
     @Getter @Setter private String telefono;
     @Getter @Setter private String carrera;
@@ -19,4 +20,3 @@ public class Estudiante {
                 "\nGratuidad: " + (gratuidad ? "Sí" : "No");
     }
 }
-
